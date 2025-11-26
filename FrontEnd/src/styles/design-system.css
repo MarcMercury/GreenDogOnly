@@ -1,0 +1,74 @@
+:root {
+  /* COLORS */
+  --primary: #2A75FF;
+  --primary-dark: #245FCE;
+
+  --bg: #F7F9FC;
+  --panel: #FFFFFF;
+
+  --border: #E4E8EF;
+  --text-main: #1A1C1F;
+  --text-subtle: #4D535D;
+
+  --error: #E5484D;
+  --success: #4CAF50;
+
+  /* SPACING */
+  --xs: 4px;
+  --sm: 6px;
+  --md: 12px;
+  --lg: 16px;
+  --xl: 24px;
+
+  /* TYPOGRAPHY */
+  --font: 'Inter', sans-serif;
+  --h1: 20px;
+  --h2: 16px;
+  --h3: 14px;
+  --body: 13px;
+  --small: 11px;
+}
+
+body {
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text-main);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: var(--lg);
+}
+
+.button {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 6px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  font-size: var(--body);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--primary-dark);
+}
+
+.input {
+  height: 36px;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  font-size: var(--body);
+}
+
+.input:focus {
+  border-color: var(--primary);
+  outline: none;
+}

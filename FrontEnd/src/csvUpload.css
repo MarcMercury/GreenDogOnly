@@ -1,0 +1,34 @@
+.csv-upload-root {
+  padding: 24px;
+  background: #f7f9fc;
+  min-height: 100vh;
+  font-family: Inter, Roboto, Arial, sans-serif;
+}
+.csv-upload-root h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+input[type="file"] {
+  margin-bottom: 12px;
+}
+button {
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #e4e8ef;
+  background: #fff;
+  color: #1a1c1f;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 14px;
+}
+button:hover {
+  background: #2a75ff;
+  color: #fff;
+}
+.upload-info {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #4d535d;
+}

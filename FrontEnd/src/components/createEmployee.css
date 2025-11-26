@@ -1,0 +1,89 @@
+/* src/components/createEmployee.css */
+
+.cew-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.cew-modal {
+  width: 860px;
+  max-height: 90vh;
+  overflow: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 24px 16px;
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.4);
+}
+
+.cew-subtitle {
+  margin: 4px 0 12px;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.cew-form section {
+  margin-bottom: 16px;
+}
+
+.cew-form h3 {
+  margin: 6px 0 6px;
+  font-size: 15px;
+}
+
+.cew-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px 12px;
+}
+
+.cew-grid label {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #0f172a;
+}
+
+.cew-grid input,
+.cew-grid select {
+  margin-top: 3px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  padding: 4px 6px;
+  font-size: 12px;
+}
+
+.cew-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.cew-footer-right {
+  display: flex;
+  gap: 8px;
+}
+
+.cew-btn,
+.cew-btn-muted {
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.cew-btn {
+  background: #2563eb;
+  color: #f9fafb;
+}
+
+.cew-btn-muted {
+  background: #e5e7eb;
+  color: #111827;
+}

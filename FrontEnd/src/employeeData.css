@@ -1,0 +1,123 @@
+.emp-th-name, .emp-td-name {
+  position: sticky;
+  left: 70px;
+  background: #f7f9fc;
+  z-index: 3;
+  min-width: 160px;
+  max-width: 160px;
+  box-shadow: 2px 0 4px -2px #e4e8ef;
+}
+.employee-data-root {
+  padding: 24px;
+  background: #f7f9fc;
+  min-height: 100vh;
+  font-family: Inter, Roboto, Arial, sans-serif;
+}
+.page-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.page-title-bar h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.actions button {
+  margin-left: 8px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #e4e8ef;
+  background: #fff;
+  color: #1a1c1f;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 14px;
+}
+.actions button:hover {
+  background: #2a75ff;
+  color: #fff;
+}
+/* Data grid wrapper and table styles */
+.data-grid-wrapper {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #e4e8ef;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+.emp-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  table-layout: fixed;
+}
+.emp-table th, .emp-table td {
+  padding: 6px 10px;
+  border: 1px solid #e4e8ef;
+  background: #fff;
+  white-space: nowrap;
+  text-align: left;
+}
+.emp-table th {
+  position: sticky;
+  top: 0;
+  background: #f7f9fc;
+  font-weight: 600;
+  z-index: 2;
+}
+.emp-th-sticky-left, .emp-td-sticky-left {
+  position: sticky;
+  left: 0;
+  background: #f7f9fc;
+  z-index: 3;
+  box-shadow: 2px 0 4px -2px #e4e8ef;
+}
+.emp-th-edit, .emp-td-edit {
+  position: sticky;
+  left: 0;
+  background: #f7f9fc;
+  z-index: 4;
+  min-width: 70px;
+  max-width: 70px;
+  text-align: center;
+}
+.emp-table tr {
+  height: 34px;
+}
+.emp-table-grid {
+  border: 1px solid #e4e8ef;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+.emp-table tr:nth-child(even) td {
+  background: #f4f7fa;
+}
+.emp-table th, .emp-table td {
+  border-right: 1px solid #e4e8ef;
+  border-bottom: 1px solid #e4e8ef;
+}
+.emp-table th:last-child, .emp-table td:last-child {
+  border-right: none;
+}
+.emp-table tr:last-child td {
+  border-bottom: none;
+}
+.emp-name-link {
+  background: none;
+  border: none;
+  color: #2a75ff;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.emp-cell-input {
+  width: 100%;
+  font-size: 12px;
+  padding: 4px 6px;
+  border: 1px solid #e4e8ef;
+  border-radius: 4px;
+}
